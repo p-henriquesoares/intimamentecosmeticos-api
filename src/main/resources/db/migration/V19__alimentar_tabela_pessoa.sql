@@ -1,0 +1,1 @@
+INSERT INTO pessoa (nome, id_pais, id_estado, id_cidade) VALUES ('Pedro Henrique Rodrigues Soares', (select distinct id_pais from pais where lower(sigla) = lower('BR')), (select distinct id_estado from estado where lower(sigla) = lower('PR')), (select distinct id_cidade from cidade where lower(descricao) = lower('Curitiba')));

@@ -1,0 +1,1 @@
+INSERT INTO cor (descricao) VALUES('Preto');

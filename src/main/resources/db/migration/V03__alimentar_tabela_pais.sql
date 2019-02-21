@@ -1,0 +1,1 @@
+INSERT INTO pais (descricao, sigla) VALUES ('Brasil', 'BR');

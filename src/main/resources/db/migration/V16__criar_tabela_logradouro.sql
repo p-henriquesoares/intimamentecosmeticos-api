@@ -1,0 +1,4 @@
+CREATE TABLE logradouro(
+	id_logradouro INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	descricao VARCHAR(20) NOT NULL
+) engine=InnoDB DEFAULT CHARSET=utf8;

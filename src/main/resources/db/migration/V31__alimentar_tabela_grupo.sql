@@ -1,0 +1,1 @@
+INSERT INTO grupo (descricao) VALUES('Administrador');

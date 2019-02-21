@@ -1,0 +1,2 @@
+INSERT INTO cidade (id_estado, descricao) VALUES((SELECT DISTINCT id_estado FROM estado WHERE LOWER(sigla) = LOWER('SC')), 'Blumenau');
+INSERT INTO cidade (id_estado, descricao) VALUES((SELECT DISTINCT id_estado FROM estado WHERE LOWER(sigla) = LOWER('PR')), 'Curitiba');

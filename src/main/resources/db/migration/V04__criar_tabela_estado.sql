@@ -1,0 +1,7 @@
+CREATE TABLE estado(
+	id_estado INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	id_pais INT NOT NULL,
+	descricao VARCHAR(20) NOT NULL,
+	sigla VARCHAR(3) NOT NULL,
+	FOREIGN KEY (id_pais) REFERENCES pais(id_pais)
+) engine=InnoDB DEFAULT CHARSET=utf8;

@@ -1,0 +1,1 @@
+INSERT INTO usuario (id_pessoa, nome, senha, ativo) VALUES((SELECT DISTINCT id_pessoa FROM pessoa WHERE LOWER(nome) LIKE LOWER('Pedro%Henrique%Rodrigues%Soares')), 'pedro.soares', 'password', true);

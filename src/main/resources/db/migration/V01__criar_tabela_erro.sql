@@ -1,0 +1,6 @@
+CREATE TABLE erro(
+	id_erro INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	data_ocorrencia DATETIME NOT NULL,
+	origem VARCHAR(100) NOT NULL,
+	descricao TEXT NOT NULL
+) engine=InnoDB DEFAULT CHARSET=utf8;
